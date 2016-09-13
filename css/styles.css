@@ -1,0 +1,382 @@
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+/*                             全域                               */
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  margin: 0px;
+}
+h4{
+  font-family: 'Kozuka Mincho Pro', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 28px;
+}
+#Header{
+  width: 100%;
+  background-color: #fff;
+}
+#Header>.Container{
+  width: 100%;
+
+  overflow: hidden;
+}
+.Container{
+  width: 90%;
+  margin: auto;
+}
+#Taste{
+  background-image: url('../images/bg/bg_02.jpg');
+}
+#MenuIcon{
+  width: 15.8%;
+  height: 86px;
+  background-image: url('../images/icon/menuicon.png');
+  float: left;
+}
+.BGEdit{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   border: 0px;
+   margin: -1px;
+   overflow: hidden;
+   clip: rect(0,0,0,0);
+}
+#Logo{
+  width: 35.3%;
+  height: 86px;
+  background-color: darkviolet;
+  float: left;
+  margin-top: 0px;
+}
+#MemberContent{
+  width: 16.666%;
+  height: 86px;
+
+  float: right;
+  margin-right: 2%;
+}
+#MemberContent>div{
+  float: left;
+  width: 50%;
+  height: 86px;
+  /*min-width: 50px;*/
+}
+#MemberIcon{
+  text-align: center center;
+  font-size: 21px;
+  margin-top: 5px;
+}
+#CartIcon{
+  text-align: center center;
+  font-size: 19px;
+  margin-top: 5px;
+}
+#PrimaryNavigation{
+  width: 100%;
+  background-color: aqua;
+  float: left;
+  display: none;
+}
+#PrimaryNavigation>ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#PrimaryNavigation>ul>li{
+  width: 100%;
+  height: 60px;
+  background-color: #00FFFF;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 60px;
+}
+#PrimaryNavigation>ul>li>a{
+  text-decoration: none;
+  color: 	#000000;
+}
+#BannerContent{
+  width: 100%;
+}
+#BannerLeft, #BannerRight{
+  display: none;
+}
+#BannerContent>img{
+  width: 100%;
+  vertical-align: bottom;
+}
+.NewsContent{
+  width: 100%;
+}
+.NewsImg{
+  display: none;
+}
+.NewsDate{
+  color: #9FB783;
+  font-family: "Verdana",sans-serif;
+}
+.NewsTitle>a{
+  color: #000;
+}
+#Taste .Wrap{
+  position: relative;
+}
+#Taste p{
+  text-align: center;
+}
+#SocietyContent i{
+  font-size: 50px;
+  color: #7700FF;
+}
+#SocietyContent i:hover{
+
+  color: #FF88C2;
+}
+#Map{
+  margin-bottom: 40px;
+}
+#FacebookIcon,#GooglePlus,#FacebookIcon>a,#GooglePlus>a{
+  display: inline;
+}
+.TipTag{
+  top: -21px;
+  right: 12px;
+  width: 51px;
+  height: 46px;
+
+  position: absolute;
+}
+#Copyrights{
+  width: 100%;
+  height: 50px;
+  background-color: #A4DCFF;
+  text-align: center;
+}
+.Container img{
+  width: 100%;
+}
+#Banner, #News, #Product, #Taste{
+  margin-bottom: 50px;
+}
+#PageTop{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: fixed;
+  right:5%;
+  bottom:5%;
+  border-radius:50%;
+  display: none;
+}
+#PageTop>a{
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0)
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+/*                            手機轉置                             */
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 480px) {
+    /* 如果使用者視窗寬度大於等於480px，將會載入這裡的 CSS。*/
+    body{
+
+    }
+
+
+}
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+/*                              平板                              */
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 768px) {
+    /* 如果使用者視窗寬度大於等於768px，將會載入這裡的 CSS。*/
+    body{
+
+    }
+    #Header>.Container{
+      width: 90%;
+    }
+    #News{
+    background-image: url('../images/bg/bg_01.jpg');
+    }
+    #MenuIcon{
+      display: none;
+    }
+    #Logo{
+      margin-left: 39%;
+      width: 22%;
+      height: 29px;
+      margin-top: 69px;
+    }
+    #MemberContent{
+      width: 80px;
+      height: 40px;
+    }
+    #MemberContent>div{
+      width: 40px;
+      height: 40px;
+    }
+    #PrimaryNavigation{
+    width: 51.8%;
+    float: none;
+    margin: auto;
+    clear: both;
+    display: block;
+  }
+  #PrimaryNavigation>ul>li{
+    width: 25%;
+    border:none;
+    background-color: #fff;
+    float: left;
+  }
+  #PrimaryNavigation>ul>li>a{
+    color: #000;
+  }
+  .NewContent,.Content{
+    width: 33.33333%;
+
+
+    float: left;
+  }
+  .Wrap{
+    width: 95%;
+  }
+  .Container{
+    overflow: hidden;
+  }
+
+  .NewsImg{
+    display: block;;
+
+  }
+  .PCContent{
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .PCImgContent{
+    width: 57.2%;
+    float: left;
+  }
+  .PCDecription{
+    float: left;
+    width: 42.8%;
+    height: 300px;
+
+    text-align: center;
+  }
+  .PCImgRight{
+    float: right;
+  }
+  #ContactContent,#SocietyContent{
+    width: 50%;
+    float: left;
+  }
+  #SocietyContent{
+    text-align: right;
+  }
+  #FacebookIcon,#GooglePlus,#FacebookIcon>a,#GooglePlus>a{
+    display: inline;
+  }
+  .PCDecription p{
+    font-size: 28px;
+    font-family: 'Kozuka Mincho Pro', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 150px;
+  }
+  .TopLine,.BottomLine{
+    width: 120px;
+    height: 40px;
+    margin: auto;
+
+  }
+  .TopLine{
+    margin-top: 90px;
+      background-image: url('../images/bg/line_top.jpg');
+  }
+  .BottomLine{
+      background-image: url('../images/bg/line_bottom.jpg');
+  }
+
+}
+
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+/*                              PC 板                             */
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 980px) {
+    /* 如果使用者視窗寬度大於等於980px，將會載入這裡的 CSS。*/
+    body{
+
+    }
+    .Container, #Header>.Container{
+      max-width: 1170px;
+    }
+    #PrimaryNavigation>ul>li>a:hover{
+    background-color: pink;
+    color: red;
+  }
+    #BannerLeft{
+      width: 10%;
+
+
+      float: left;
+    }
+    #BannerContent{
+      width: 80%;
+      float: left;
+    }
+    #BannerContent img{
+      width: 100%;
+    }
+    #BannerRight{
+      width: 10%;
+
+
+      float: left;
+    }
+    #BannerLeft, #BannerRight{
+    display: block;
+    height: 100px;
+    }
+    #Banner{
+      overflow: hidden;
+    }
+
+}
